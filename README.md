@@ -8,13 +8,13 @@ A simple Discord bot using [discord.js v14](https://discord.js.org)
 
 Clone the repo on your system:
 
-```sh-session
+```sh
 git clone https://github.com/3raphat/simple-discord-bot-template.git
 ```
 
 Then, navigate to the directory and install the npm packages:
 
-```sh-session
+```sh
 npm install
 ```
 
@@ -32,7 +32,7 @@ OWNER_ID=OWNER_ID
 
 After you fill out the values, start your bot with `node index.js` or `npm run start`:
 
-```sh-session
+```sh
 node index.js
 ```
 
