@@ -1,4 +1,4 @@
-# A simple discord bot
+# A simple Discord bot
 
 A simple Discord bot using [discord.js v14](https://discord.js.org)
 
