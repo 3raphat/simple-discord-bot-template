@@ -1,0 +1,20 @@
+{
+  "name": "djs14-template",
+  "version": "1.0.0",
+  "description": "A simple discord bot (Join our discord server: https://discord.gg/tPAEqM3jAx)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Ahnnee",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
