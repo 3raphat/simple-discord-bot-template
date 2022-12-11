@@ -1,3 +1,5 @@
+const { EmbedBuilder } = require("discord.js");
+
 module.exports = {
   name: "ping",
   description: "Check the bot's response time",
