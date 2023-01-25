@@ -21,6 +21,6 @@ process.on('unhandledRejection', err => console.log(err));
 process.on('uncaughtException', err => console.log(err));
 
 ["commands"].forEach(x => client[x] = new Collection());
-["commands", "events"].forEach(x => require(`./handlers/${x}`)(client));
+["command", "event"].forEach(x => require(`./handlers/${x}`)(client));
 
 client.login(client.token);
